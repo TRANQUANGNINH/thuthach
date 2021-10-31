@@ -1,0 +1,78 @@
+/*pc*/
+@media (min-width:1025px) {
+    .menu-mb{
+        display: none;
+    }
+    .navbar-icon{
+        display: none;
+    }
+}
+/* Mobile & tablet */
+@media (max-width:1024px) {
+    .menu-mb{
+        display: block;
+        position: fixed;
+        top: 44px;
+        left: 0;
+        height: 100%;
+        width: 210px;
+        background-color: rgb(240,240,240);
+    }
+    .menu-list--mb{
+        list-style: none;
+    }
+    .menu-list--mb h2{
+        margin: 16px 12px ;
+    }
+    .menu-item--mb a{
+        text-decoration: none;
+        padding: 12px;
+        display: block;
+        font-size: 18px;
+        color: black;
+    }
+    .menu-icon a{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px 18px;
+        color: #000;
+    }
+    .menu-icon a:hover{
+        background-color: #000;
+        color: #fff;
+    }
+    .navbar-icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0, 0.3);
+    }
+    .hidden{
+        display: none;
+    }
+}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px){
+    /*navbar*/
+    .navbar-list .navbar-item:nth-child(6),
+    .navbar-list .navbar-item:nth-child(7)
+    {
+        display: none;
+    }
+}
+/*Mobile*/
+@media (max-width: 739px){
+    .navbar-item--head ~ .navbar-item{
+        display: none;
+    }
+}

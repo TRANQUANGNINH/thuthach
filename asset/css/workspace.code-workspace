@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\shopee"
+		},
+		{
+			"path": "..\\..\\..\\paintHome"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "vdNhom2"
+	}
+}
